@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Millennium Falcon",
+        "batteryLevel": 90,
+        "status": "available",
+        "location": "Factory A"
+    },
+    {
+        "name": "Slave I",
+        "batteryLevel": 70,
+        "status": "available",
+        "location": "Warehouse B"
+    },
+    {
+        "name": "X-wing",
+        "batteryLevel": 80,
+        "status": "available",
+        "location": "Dockyard C"
+    },
+    {
+        "name": "TIE Fighter",
+        "batteryLevel": 60,
+        "status": "available",
+        "location": "Garage"
+    },
+    {
+        "name": "Star Destroyer",
+        "batteryLevel": 85,
+        "status": "available",
+        "location": "Factory A"
+    },
+    {
+        "name": "Death Star",
+        "batteryLevel": 50,
+        "status": "available",
+        "location": "Warehouse B"
+    },
+    {
+        "name": "Y-wing",
+        "batteryLevel": 75,
+        "status": "available",
+        "location": "Dockyard C"
+    },
+    {
+        "name": "Imperial Shuttle",
+        "batteryLevel": 95,
+        "status": "available",
+        "location": "Garage"
+    },
+    {
+        "name": "A-wing",
+        "batteryLevel": 70,
+        "status": "available",
+        "location": "Factory A"
+    },
+    {
+        "name": "Tantive IV",
+        "batteryLevel": 60,
+        "status": "available",
+        "location": "Warehouse B"
+    },
+    {
+        "name": "B-Wing",
+        "batteryLevel": 85,
+        "status": "available",
+        "location": "Dockyard C"
+    },
+    {
+        "name": "Naboo Starfighter",
+        "batteryLevel": 40,
+        "status": "available",
+        "location": "Garage"
+    },
+    {
+        "name": "Rebel Transport",
+        "batteryLevel": 75,
+        "status": "available",
+        "location": "Factory A"
+    },
+    {
+        "name": "Ghost",
+        "batteryLevel": 55,
+        "status": "available",
+        "location": "Warehouse B"
+    },
+    {
+        "name": "TIE Advanced x1",
+        "batteryLevel": 80,
+        "status": "available",
+        "location": "Dockyard C"
+    },
+    {
+        "name": "Slave II",
+        "batteryLevel": 90,
+        "status": "in_use",
+        "player": "Alice",
+        "location": "Factory A"
+    },
+    {
+        "name": "Rogue Shadow",
+        "batteryLevel": 70,
+        "status": "in_use",
+        "player": "Bob",
+        "location": "Warehouse B"
+    },
+    {
+        "name": "Ebon Hawk",
+        "batteryLevel": 85,
+        "status": "in_use",
+        "player": "Charlie",
+        "location": "Dockyard C"
+    },
+    {
+        "name": "Scimitar",
+        "batteryLevel": 60,
+        "status": "in_use",
+        "player": "Dave",
+        "location": "Garage"
+    },
+    {
+        "name": "Razor Crest",
+        "batteryLevel": 75,
+        "status": "in_use",
+        "player": "Eva",
+        "location": "Factory A"
+    },
+    {
+        "name": "TIE/sa bomber",
+        "batteryLevel": 50,
+        "status": "maintainance",
+        "location": "Warehouse B"
+    },
+    {
+        "name": "Eta-2 Actis-class light interceptor",
+        "batteryLevel": 65,
+        "status": "maintainance",
+        "location": "Dockyard C"
+    },
+    {
+        "name": "Delta-7 Aethersprite-class light interceptor",
+        "batteryLevel": 80,
+        "status": "maintainance",
+        "location": "Garage"
+    },
+    {
+        "name": "V-Wing",
+        "batteryLevel": 45,
+        "status": "maintainance",
+        "location": "Factory A"
+    },
+    {
+        "name": "N-1 Starfighter",
+        "batteryLevel": 70,
+        "status": "maintainance",
+        "location": "Warehouse B"
+    }
+]

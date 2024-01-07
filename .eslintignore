@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+.yarn/
+
+# production
+build/
+public/
+
+# ide
+.vscode/
+
+src/@fake-db/db/*
+**/*.{js,jsx}
+
+.eslintrc.js
+tailwind.config.
+
+aliases.js
+config-overrides.js

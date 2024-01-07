@@ -1,0 +1,18 @@
+.FrodoGamers-list {
+    width: 300px;
+    height: 350px;
+    border: 1px solid green;
+}
+
+.bot-list:hover {
+    background-color: #1f3c20;
+}
+
+.selected-bot {
+    background-color: #1f3c20;
+}
+
+.bot-list:hover .MuiListItemIcon-root,
+.bot-list:hover .MuiListItemText-root {
+  transition: all 0.3s ease-in-out;
+}
