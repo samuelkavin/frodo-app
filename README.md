@@ -8,7 +8,7 @@ To get started with the application, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/frodo-app.git
+   git clone https://github.com/samuelkavin/frodo-app
    ```
 
 2. Navigate to the project directory:

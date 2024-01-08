@@ -130,7 +130,6 @@
         "test": "react-app-rewired test --env=node",
         "eject": "react-app-rewired eject",
         "lint": "eslint --fix src",
-        "postinstall": "ts-node ./src/node-scripts/audit-message.ts",
         "audit": "npm audit --production"
     },
     "engines": {
