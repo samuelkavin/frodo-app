@@ -1,4 +1,4 @@
-import BrowserRouter from 'src/@frodo/core/BrowserRouter';
+import BrowserRouter from '@frodo/core/BrowserRouter';
 import FrodoLayout from '@frodo/core/Layout/Layout';
 import FrodoTheme from '@frodo/core/Theme';
 import { SnackbarProvider } from 'notistack';

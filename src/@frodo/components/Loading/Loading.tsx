@@ -1,4 +1,4 @@
-import { useTimeout } from 'src/@frodo/hooks';
+import { useTimeout } from '@frodo/hooks';
 import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 import clsx from 'clsx';

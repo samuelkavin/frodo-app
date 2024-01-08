@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { useMemo } from 'react';
 import { useAppDispatch, useAppSelector } from 'app/store';
 import { selectNavigation } from 'app/store/slices/navigationSlice';
-import useThemeMediaQuery from 'src/@frodo/hooks/useThemeMediaQuery';
+import useThemeMediaQuery from '@frodo/hooks/useThemeMediaQuery';
 import { navbarCloseMobile } from 'app/store/slices/navbarSlice';
 import { FrodoNavigationProps } from '@frodo/core/Navigation/Navigation';
 

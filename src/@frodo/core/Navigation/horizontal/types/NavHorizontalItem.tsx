@@ -1,11 +1,11 @@
-import NavLinkAdapter from 'src/@frodo/core/NavLinkAdapter';
+import NavLinkAdapter from '@frodo/core/NavLinkAdapter';
 import { styled } from '@mui/material/styles';
 import ListItemText from '@mui/material/ListItemText';
 import clsx from 'clsx';
 import { memo, useMemo } from 'react';
-import withRouter from 'src/@frodo/core/withRouter';
+import withRouter from '@frodo/core/withRouter';
 import { ListItemButton, ListItemButtonProps } from '@mui/material';
-import { WithRouterProps } from 'src/@frodo/core/withRouter/withRouter';
+import { WithRouterProps } from '@frodo/core/withRouter/withRouter';
 import { FrodoNavItemComponentProps } from '../../NavItem';
 
 const Root = styled(ListItemButton)<ListItemButtonProps>(({ theme }) => ({

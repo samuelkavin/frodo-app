@@ -1,4 +1,4 @@
-import RoutesUtils from 'src/@frodo/utils';
+import RoutesUtils from '@frodo/utils';
 import FrodoLoading from '@frodo/components/Loading';
 import { Navigate } from 'react-router-dom';
 import { RouteConfigsType, RoutesType } from '@frodo/utils/RouterUtils';

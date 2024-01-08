@@ -1,4 +1,4 @@
-import NavLinkAdapter from 'src/@frodo/core/NavLinkAdapter';
+import NavLinkAdapter from '@frodo/core/NavLinkAdapter';
 import { alpha, styled } from '@mui/material/styles';
 import ListItemText from '@mui/material/ListItemText';
 import clsx from 'clsx';

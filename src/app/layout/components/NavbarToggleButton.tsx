@@ -1,7 +1,7 @@
 import IconButton from '@mui/material/IconButton';
 import { useAppDispatch, useAppSelector } from 'app/store';
 import { selectDefaultSettings } from 'app/store/slices/settingsSlice';
-import useThemeMediaQuery from 'src/@frodo/hooks/useThemeMediaQuery';
+import useThemeMediaQuery from '@frodo/hooks/useThemeMediaQuery';
 import { navbarToggle, navbarToggleMobile } from 'app/store/slices/navbarSlice';
 import MenuIcon from '@mui/icons-material/Menu';
 

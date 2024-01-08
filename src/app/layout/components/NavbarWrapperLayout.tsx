@@ -8,7 +8,7 @@ import { useAppDispatch } from 'app/store';
 import { selectCurrentLayoutConfig, selectNavbarTheme } from 'app/store/slices/settingsSlice';
 import { LayoutConfigDefaultsType } from 'app/layout/LayoutConfig';
 import { useLocation } from 'react-router';
-import useThemeMediaQuery from 'src/@frodo/hooks/useThemeMediaQuery';
+import useThemeMediaQuery from '@frodo/hooks/useThemeMediaQuery';
 import NavbarLayout from './NavbarLayout';
 import NavbarMobileLayout from './NavbarMobileLayout';
 
