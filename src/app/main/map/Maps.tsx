@@ -4,10 +4,10 @@ import { styled } from '@mui/material/styles';
 import * as React from 'react';
 import { useRef, useCallback } from 'react';
 import Map, { MapRef } from 'react-map-gl';
-import './Maps.css';
 import MapsControl from './MapsControl';
+import './Maps.css';
 
-const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FtdWVsa2F2aW4iLCJhIjoiY2xxeTRuZnozMDBlOTJqcWRpMDR5a29jcyJ9.2phvz76j1nq1J8HHu7a46w'; // Set your mapbox token here
+const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FtdWVsa2F2aW4iLCJhIjoiY2xxeTRrMmFwMGpsdjJsbnI1NWxxeXh6MiJ9.id_XiP7HRn-l9kQALWQs6w';
 
 const initialViewState = {
 	latitude: 37.7751,
