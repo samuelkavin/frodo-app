@@ -18,6 +18,12 @@ const navigationConfig: FrodoNavigationType = [
 		title: 'Play',
 		type: 'item',
 		url: 'play'
+	},
+	{
+		id: 'bots-component',
+		title: 'Bots',
+		type: 'item',
+		url: 'bots'
 	}
 ];
 

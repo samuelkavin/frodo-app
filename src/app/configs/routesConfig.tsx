@@ -6,8 +6,9 @@ import Error404Page from '../main/404/Error404Page';
 import MapsConfig from '../main/map/MapsConfig';
 import PlayConfig from '../main/play/PlayConfig';
 import DashboardConfig from '../main/dashboard/DashboardConfig';
+import BotsConfig from '../main/Bots/BotsConfig';
 
-const routeConfigs: RouteConfigsType = [MapsConfig, PlayConfig, DashboardConfig];
+const routeConfigs: RouteConfigsType = [MapsConfig, PlayConfig, DashboardConfig, BotsConfig];
 
 const routes: RoutesType = [
 	...RoutesUtils.generateRoutesFromConfigs(routeConfigs),
