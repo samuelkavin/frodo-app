@@ -1,7 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import FrodoPageSimple from '@frodo/core/PageSimple';
 import { styled } from '@mui/material/styles';
-import * as React from 'react';
 import { useRef, useCallback } from 'react';
 import Map, { MapRef } from 'react-map-gl';
 import MapsControl from './MapsControl';

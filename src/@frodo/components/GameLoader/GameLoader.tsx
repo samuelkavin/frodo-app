@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { useNavigate } from 'react-router';
 
-
 export type GameLoaderProps = {
 	timeout?: number;
 	name?: string;

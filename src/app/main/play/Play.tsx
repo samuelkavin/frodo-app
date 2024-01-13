@@ -69,7 +69,7 @@ function Play() {
 					<div className="flex">
 						<PlayLocationList filteredBots={filteredBots} />
 					</div>
-				</ div>
+				</div>
 			}
 		/>
 	);

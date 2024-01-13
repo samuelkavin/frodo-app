@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/alt-text */
-import * as React from 'react';
 import { useState, useMemo } from 'react';
 import Map, { Marker, NavigationControl, FullscreenControl, ScaleControl, GeolocateControl } from 'react-map-gl';
 import Dialog from '@mui/material/Dialog';
@@ -14,7 +13,7 @@ const TOKEN = 'pk.eyJ1Ijoic2FtdWVsa2F2aW4iLCJhIjoiY2xxeTRrMmFwMGpsdjJsbnI1NWxxeX
 
 export default function Bots() {
 	const [popupInfo, setPopupInfo] = useState(null);
-	const [open, setOpen] = React.useState(false);
+	const [open, setOpen] = useState(false);
 
 	const handleClickOpen = () => {
 		setOpen(true);

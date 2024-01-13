@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
 /* eslint-disable import/no-extraneous-dependencies */
 import FrodoPageSimple from '@frodo/core/PageSimple';
-import { styled, ThemeProvider, useTheme } from '@mui/material/styles';
+import { styled, ThemeProvider } from '@mui/material/styles';
 import ReactApexChart from 'react-apexcharts';
 import { useState } from 'react';
 import Tabs from '@mui/material/Tabs';
@@ -17,7 +17,6 @@ import CHART from './data.json'
 const Root = styled(FrodoPageSimple)(({ theme }) => ({}));
 
 function Dashboard() {
-	const theme = useTheme();
 	const contrastTheme = useAppSelector(selectContrastMainTheme());
 	const [tabValue, setTabValue] = useState(0);
 	const currentRange = Object.keys(CHART.players.ranges)[tabValue];
