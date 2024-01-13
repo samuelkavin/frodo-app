@@ -8,6 +8,8 @@ const Root = styled(FrodoPageSimple)(({ theme }) => ({}));
 function Game() {
 	return (
 		<Root
+			// Demo pupose only
+			// Credit: https://codepen.io/geoffgraham/pen/NWREbov
 			content={
 				<div className="checkerboard">
 					<div></div>
