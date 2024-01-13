@@ -1,9 +1,0 @@
-/* hide mapbox copyright */
-.mapboxgl-control-container {
-    display: none !important;
-}
-
-.mapboxgl-canvas {
-    width: 100vw;
-    height: 100vh;
-}

@@ -7,8 +7,10 @@ import MapsConfig from '../main/map/MapsConfig';
 import PlayConfig from '../main/play/PlayConfig';
 import DashboardConfig from '../main/dashboard/DashboardConfig';
 import BotsConfig from '../main/bots/BotsConfig';
+import AvatarConfig from '../main/avatar/AvatarConfig';
+import GameConfig from '../main/game/GameConfig';
 
-const routeConfigs: RouteConfigsType = [MapsConfig, PlayConfig, DashboardConfig, BotsConfig];
+const routeConfigs: RouteConfigsType = [MapsConfig, PlayConfig, DashboardConfig, BotsConfig, AvatarConfig, GameConfig];
 
 const routes: RoutesType = [
 	...RoutesUtils.generateRoutesFromConfigs(routeConfigs),

@@ -13,7 +13,6 @@ import { ApexOptions } from 'apexcharts';
 import { useAppSelector } from 'app/store';
 import FrodoCard from '@frodo/components/Card/Card';
 import CHART from './data.json'
-import './Dashboard.css';
 
 const Root = styled(FrodoPageSimple)(({ theme }) => ({}));
 
