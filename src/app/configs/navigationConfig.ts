@@ -21,9 +21,9 @@ const navigationConfig: FrodoNavigationType = [
 	},
 	{
 		id: 'bots-component',
-		title: 'Bots',
+		title: 'Robots',
 		type: 'item',
-		url: 'bots'
+		url: 'robots'
 	}
 ];
 

@@ -6,12 +6,12 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Pin from './Pin';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import './Bots.css';
+import './Robots.css';
 import CITIES from './data.json';
 
 const TOKEN = 'pk.eyJ1Ijoic2FtdWVsa2F2aW4iLCJhIjoiY2xxeTRrMmFwMGpsdjJsbnI1NWxxeXh6MiJ9.id_XiP7HRn-l9kQALWQs6w';
 
-export default function Bots() {
+export default function Robots() {
 	const [popupInfo, setPopupInfo] = useState(null);
 	const [open, setOpen] = useState(false);
 
