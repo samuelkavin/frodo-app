@@ -6,7 +6,7 @@ import Map, { MapRef } from 'react-map-gl';
 import MapsControl from './MapsControl';
 import './Maps.css';
 
-const MAPBOX_TOKEN = 'pk.eyJ1Ijoic2FtdWVsa2F2aW4iLCJhIjoiY2xxeTRrMmFwMGpsdjJsbnI1NWxxeXh6MiJ9.id_XiP7HRn-l9kQALWQs6w';
+const MAPBOX_TOKEN = '<TOKEN>';
 
 const initialViewState = {
 	latitude: 37.7751,
